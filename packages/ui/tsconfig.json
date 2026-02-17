@@ -4,9 +4,9 @@
     "outDir": "dist",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"]  
     }
   },
-  "include": ["src", "lib", "components", "hooks"],
+  "include": ["src"],
   "exclude": ["node_modules", "dist"]
 }
