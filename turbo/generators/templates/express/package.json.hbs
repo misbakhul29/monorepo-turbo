@@ -1,0 +1,21 @@
+{
+  "name": "{{name}}",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "cors": "latest"
+  },
+  "devDependencies": {
+    "@types/express": "latest",
+    "@types/cors": "latest",
+    "typescript": "latest",
+    "tsx": "latest",
+    "@repo/ui": "workspace:*"
+  }
+}
