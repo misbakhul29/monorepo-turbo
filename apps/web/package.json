@@ -11,8 +11,11 @@
     "check-types": "next typegen && tsc --noEmit"
   },
   "dependencies": {
+    "@repo/auth": "workspace:^",
     "@repo/database": "workspace:^",
     "@repo/ui": "workspace:*",
+    "@tanstack/react-form": "^1.28.3",
+    "@tanstack/react-query": "^5.90.21",
     "next": "16.1.5",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
